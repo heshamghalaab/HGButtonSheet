@@ -15,6 +15,7 @@ class HGButtonSheet: UIView {
     @IBOutlet weak private var placeHolderLabel: UILabel!
     @IBOutlet weak private var warningLabel: UILabel!
     @IBOutlet weak private var separatorView: UIView!
+    @IBOutlet weak private var arrowImageView: UIImageView!
     
     @IBOutlet weak private var topOfTextField: NSLayoutConstraint!
     @IBOutlet weak private var topOfPlaceHolderLabel: NSLayoutConstraint!
@@ -157,12 +158,17 @@ class HGButtonSheet: UIView {
     private func handlingSeparatorView(){
         guard !hasWarning else{
             self.separatorView.backgroundColor = self.separatorPackage.atWarningColor
+            self.arrowImageView.tintColor = self.separatorPackage.atWarningColor
             return
         }
         
         switch self.status {
-        case .active: self.separatorView.backgroundColor = self.separatorPackage.activeColor
-        case .inActive: self.separatorView.backgroundColor = self.separatorPackage.inActiveColor
+        case .active:
+            self.separatorView.backgroundColor = self.separatorPackage.activeColor
+            self.arrowImageView.tintColor = self.separatorPackage.activeColor
+        case .inActive:
+            self.separatorView.backgroundColor = self.separatorPackage.inActiveColor
+            self.arrowImageView.tintColor = self.separatorPackage.inActiveColor
         }
     }
     

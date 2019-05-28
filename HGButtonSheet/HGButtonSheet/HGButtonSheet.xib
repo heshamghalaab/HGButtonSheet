@@ -12,6 +12,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HGButtonSheet" customModule="HGButtonSheet" customModuleProvider="target">
             <connections>
+                <outlet property="arrowImageView" destination="JIg-qF-ZI4" id="zrw-pI-bzG"/>
                 <outlet property="leadingOfPlaceHolderLabel" destination="sVm-G9-TBZ" id="unF-LU-f7K"/>
                 <outlet property="mainView" destination="iN0-l3-epB" id="OKi-d1-s7C"/>
                 <outlet property="placeHolderLabel" destination="wrw-0X-32K" id="XMs-E5-F7X"/>
