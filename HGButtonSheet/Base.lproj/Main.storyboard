@@ -1,23 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="DZ7-gO-YzM">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <scene sceneID="hyc-ok-k7H">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                <viewController storyboardIdentifier="ViewController" id="DZ7-gO-YzM" customClass="ViewController" customModule="HGButtonSheet" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="AjC-UB-yvO">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="xhv-OK-unW">
+                                <rect key="frame" x="8" y="64" width="398" height="108"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fD2-Xx-ZeU" customClass="HGButtonSheet" customModule="HGButtonSheet" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="398" height="50"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" priority="250" constant="50" id="1Kq-bt-VUI"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Rin-P8-kGo" customClass="HGButtonSheet" customModule="HGButtonSheet" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="58" width="398" height="50"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" priority="250" constant="50" id="X67-U6-qJr"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zqf-nG-xQf">
+                                <rect key="frame" x="166.5" y="427" width="81" height="42"/>
+                                <color key="backgroundColor" red="0.016995774580000001" green="0.48766422269999998" blue="0.99898439650000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="25"/>
+                                <state key="normal" title="  Done  ">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="21"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="doneButtonTapped:" destination="DZ7-gO-YzM" eventType="touchUpInside" id="9Ft-s8-Mlj"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <constraints>
+                            <constraint firstItem="L5G-ww-tr1" firstAttribute="trailing" secondItem="xhv-OK-unW" secondAttribute="trailing" constant="8" id="0Ps-Qq-hcL"/>
+                            <constraint firstItem="Zqf-nG-xQf" firstAttribute="centerX" secondItem="AjC-UB-yvO" secondAttribute="centerX" id="5N7-AI-buk"/>
+                            <constraint firstItem="xhv-OK-unW" firstAttribute="centerX" secondItem="AjC-UB-yvO" secondAttribute="centerX" id="Eqe-YX-wTK"/>
+                            <constraint firstItem="xhv-OK-unW" firstAttribute="top" secondItem="L5G-ww-tr1" secondAttribute="top" constant="20" id="M7t-3T-1km"/>
+                            <constraint firstItem="xhv-OK-unW" firstAttribute="leading" secondItem="L5G-ww-tr1" secondAttribute="leading" constant="8" id="WsX-7y-QLI"/>
+                            <constraint firstItem="Zqf-nG-xQf" firstAttribute="centerY" secondItem="AjC-UB-yvO" secondAttribute="centerY" id="pUE-rz-7as"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="L5G-ww-tr1"/>
                     </view>
+                    <connections>
+                        <outlet property="filterButton" destination="fD2-Xx-ZeU" id="wYT-gD-HxV"/>
+                        <outlet property="sortButton" destination="Rin-P8-kGo" id="FXF-5x-2df"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="01O-sA-CQm" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
     </scenes>

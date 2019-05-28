@@ -7,14 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C515E77229DEF9C0086A89D /* HGButtonSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C515E6E229DEF9C0086A89D /* HGButtonSheet.xib */; };
+		9C515E78229DEF9C0086A89D /* HGButtonSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C515E6F229DEF9C0086A89D /* HGButtonSheet.swift */; };
+		9C515E79229DEF9C0086A89D /* HGBS_PlaceHolderPackage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C515E71229DEF9C0086A89D /* HGBS_PlaceHolderPackage.swift */; };
+		9C515E7A229DEF9C0086A89D /* HGBS_SeparatorPackage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C515E72229DEF9C0086A89D /* HGBS_SeparatorPackage.swift */; };
+		9C515E7B229DEF9C0086A89D /* HGBS_FieldPackage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C515E73229DEF9C0086A89D /* HGBS_FieldPackage.swift */; };
+		9C515E7C229DEF9C0086A89D /* HGBS_TextFieldStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C515E74229DEF9C0086A89D /* HGBS_TextFieldStatus.swift */; };
+		9C515E7D229DEF9C0086A89D /* HGBS_WarningPackage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C515E75229DEF9C0086A89D /* HGBS_WarningPackage.swift */; };
 		9C5F7635229C3DA2000F1606 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5F7634229C3DA2000F1606 /* AppDelegate.swift */; };
 		9C5F7637229C3DA2000F1606 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5F7636229C3DA2000F1606 /* ViewController.swift */; };
 		9C5F763A229C3DA2000F1606 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C5F7638229C3DA2000F1606 /* Main.storyboard */; };
 		9C5F763C229C3DA3000F1606 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C5F763B229C3DA3000F1606 /* Assets.xcassets */; };
 		9C5F763F229C3DA3000F1606 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C5F763D229C3DA3000F1606 /* LaunchScreen.storyboard */; };
+		9C5F7654229C3E0E000F1606 /* UINavigationController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5F7647229C3E0E000F1606 /* UINavigationController+Extension.swift */; };
+		9C5F7655229C3E0E000F1606 /* HGPopUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5F764A229C3E0E000F1606 /* HGPopUpVC.swift */; };
+		9C5F7656229C3E0E000F1606 /* HGPopUpPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5F764C229C3E0E000F1606 /* HGPopUpPresenter.swift */; };
+		9C5F7657229C3E0E000F1606 /* HGTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5F764E229C3E0E000F1606 /* HGTableView.swift */; };
+		9C5F7658229C3E0E000F1606 /* HGPopUpCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C5F764F229C3E0E000F1606 /* HGPopUpCell.xib */; };
+		9C5F7659229C3E0E000F1606 /* HGPopUpVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C5F7650229C3E0E000F1606 /* HGPopUpVC.xib */; };
+		9C5F765A229C3E0E000F1606 /* HGPopUpCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5F7651229C3E0E000F1606 /* HGPopUpCell.swift */; };
+		9C5F765B229C3E0E000F1606 /* HGPopUpProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5F7653229C3E0E000F1606 /* HGPopUpProtocol.swift */; };
+		9C5F7691229C413D000F1606 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5F7690229C413D000F1606 /* Filter.swift */; };
+		9C5F7693229C41EA000F1606 /* Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5F7692229C41EA000F1606 /* Sort.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9C515E6E229DEF9C0086A89D /* HGButtonSheet.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HGButtonSheet.xib; sourceTree = "<group>"; };
+		9C515E6F229DEF9C0086A89D /* HGButtonSheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HGButtonSheet.swift; sourceTree = "<group>"; };
+		9C515E71229DEF9C0086A89D /* HGBS_PlaceHolderPackage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HGBS_PlaceHolderPackage.swift; sourceTree = "<group>"; };
+		9C515E72229DEF9C0086A89D /* HGBS_SeparatorPackage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HGBS_SeparatorPackage.swift; sourceTree = "<group>"; };
+		9C515E73229DEF9C0086A89D /* HGBS_FieldPackage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HGBS_FieldPackage.swift; sourceTree = "<group>"; };
+		9C515E74229DEF9C0086A89D /* HGBS_TextFieldStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HGBS_TextFieldStatus.swift; sourceTree = "<group>"; };
+		9C515E75229DEF9C0086A89D /* HGBS_WarningPackage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HGBS_WarningPackage.swift; sourceTree = "<group>"; };
 		9C5F7631229C3DA2000F1606 /* HGButtonSheet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HGButtonSheet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C5F7634229C3DA2000F1606 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9C5F7636229C3DA2000F1606 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +46,16 @@
 		9C5F763B229C3DA3000F1606 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C5F763E229C3DA3000F1606 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9C5F7640229C3DA3000F1606 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C5F7647229C3E0E000F1606 /* UINavigationController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINavigationController+Extension.swift"; sourceTree = "<group>"; };
+		9C5F764A229C3E0E000F1606 /* HGPopUpVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HGPopUpVC.swift; sourceTree = "<group>"; };
+		9C5F764C229C3E0E000F1606 /* HGPopUpPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HGPopUpPresenter.swift; sourceTree = "<group>"; };
+		9C5F764E229C3E0E000F1606 /* HGTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HGTableView.swift; sourceTree = "<group>"; };
+		9C5F764F229C3E0E000F1606 /* HGPopUpCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HGPopUpCell.xib; sourceTree = "<group>"; };
+		9C5F7650229C3E0E000F1606 /* HGPopUpVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HGPopUpVC.xib; sourceTree = "<group>"; };
+		9C5F7651229C3E0E000F1606 /* HGPopUpCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HGPopUpCell.swift; sourceTree = "<group>"; };
+		9C5F7653229C3E0E000F1606 /* HGPopUpProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HGPopUpProtocol.swift; sourceTree = "<group>"; };
+		9C5F7690229C413D000F1606 /* Filter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
+		9C5F7692229C41EA000F1606 /* Sort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sort.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +69,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9C515E70229DEF9C0086A89D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9C515E71229DEF9C0086A89D /* HGBS_PlaceHolderPackage.swift */,
+				9C515E72229DEF9C0086A89D /* HGBS_SeparatorPackage.swift */,
+				9C515E73229DEF9C0086A89D /* HGBS_FieldPackage.swift */,
+				9C515E74229DEF9C0086A89D /* HGBS_TextFieldStatus.swift */,
+				9C515E75229DEF9C0086A89D /* HGBS_WarningPackage.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		9C5F7628229C3DA2000F1606 = {
 			isa = PBXGroup;
 			children = (
@@ -54,14 +100,83 @@
 		9C5F7633229C3DA2000F1606 /* HGButtonSheet */ = {
 			isa = PBXGroup;
 			children = (
+				9C5F7646229C3E0E000F1606 /* Extension */,
+				9C5F7648229C3E0E000F1606 /* HGPopUp */,
+				9C5F7689229C3E49000F1606 /* Component */,
 				9C5F7634229C3DA2000F1606 /* AppDelegate.swift */,
 				9C5F7636229C3DA2000F1606 /* ViewController.swift */,
+				9C5F7690229C413D000F1606 /* Filter.swift */,
+				9C5F7692229C41EA000F1606 /* Sort.swift */,
 				9C5F7638229C3DA2000F1606 /* Main.storyboard */,
 				9C5F763B229C3DA3000F1606 /* Assets.xcassets */,
 				9C5F763D229C3DA3000F1606 /* LaunchScreen.storyboard */,
 				9C5F7640229C3DA3000F1606 /* Info.plist */,
 			);
 			path = HGButtonSheet;
+			sourceTree = "<group>";
+		};
+		9C5F7646229C3E0E000F1606 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				9C5F7647229C3E0E000F1606 /* UINavigationController+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		9C5F7648229C3E0E000F1606 /* HGPopUp */ = {
+			isa = PBXGroup;
+			children = (
+				9C5F7649229C3E0E000F1606 /* Controller */,
+				9C5F764B229C3E0E000F1606 /* HGPopUpPresenter */,
+				9C5F764D229C3E0E000F1606 /* View */,
+				9C5F7652229C3E0E000F1606 /* Protocols */,
+			);
+			path = HGPopUp;
+			sourceTree = "<group>";
+		};
+		9C5F7649229C3E0E000F1606 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9C5F764A229C3E0E000F1606 /* HGPopUpVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9C5F764B229C3E0E000F1606 /* HGPopUpPresenter */ = {
+			isa = PBXGroup;
+			children = (
+				9C5F764C229C3E0E000F1606 /* HGPopUpPresenter.swift */,
+			);
+			path = HGPopUpPresenter;
+			sourceTree = "<group>";
+		};
+		9C5F764D229C3E0E000F1606 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9C5F764E229C3E0E000F1606 /* HGTableView.swift */,
+				9C5F764F229C3E0E000F1606 /* HGPopUpCell.xib */,
+				9C5F7650229C3E0E000F1606 /* HGPopUpVC.xib */,
+				9C5F7651229C3E0E000F1606 /* HGPopUpCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9C5F7652229C3E0E000F1606 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				9C5F7653229C3E0E000F1606 /* HGPopUpProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		9C5F7689229C3E49000F1606 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				9C515E70229DEF9C0086A89D /* Model */,
+				9C515E6F229DEF9C0086A89D /* HGButtonSheet.swift */,
+				9C515E6E229DEF9C0086A89D /* HGButtonSheet.xib */,
+			);
+			path = Component;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,8 +238,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C5F763F229C3DA3000F1606 /* LaunchScreen.storyboard in Resources */,
+				9C5F7659229C3E0E000F1606 /* HGPopUpVC.xib in Resources */,
 				9C5F763C229C3DA3000F1606 /* Assets.xcassets in Resources */,
+				9C515E77229DEF9C0086A89D /* HGButtonSheet.xib in Resources */,
 				9C5F763A229C3DA2000F1606 /* Main.storyboard in Resources */,
+				9C5F7658229C3E0E000F1606 /* HGPopUpCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +255,20 @@
 			files = (
 				9C5F7637229C3DA2000F1606 /* ViewController.swift in Sources */,
 				9C5F7635229C3DA2000F1606 /* AppDelegate.swift in Sources */,
+				9C5F7691229C413D000F1606 /* Filter.swift in Sources */,
+				9C5F7656229C3E0E000F1606 /* HGPopUpPresenter.swift in Sources */,
+				9C515E78229DEF9C0086A89D /* HGButtonSheet.swift in Sources */,
+				9C515E7B229DEF9C0086A89D /* HGBS_FieldPackage.swift in Sources */,
+				9C515E79229DEF9C0086A89D /* HGBS_PlaceHolderPackage.swift in Sources */,
+				9C515E7A229DEF9C0086A89D /* HGBS_SeparatorPackage.swift in Sources */,
+				9C5F7693229C41EA000F1606 /* Sort.swift in Sources */,
+				9C5F7655229C3E0E000F1606 /* HGPopUpVC.swift in Sources */,
+				9C5F7657229C3E0E000F1606 /* HGTableView.swift in Sources */,
+				9C5F765B229C3E0E000F1606 /* HGPopUpProtocol.swift in Sources */,
+				9C5F7654229C3E0E000F1606 /* UINavigationController+Extension.swift in Sources */,
+				9C515E7D229DEF9C0086A89D /* HGBS_WarningPackage.swift in Sources */,
+				9C515E7C229DEF9C0086A89D /* HGBS_TextFieldStatus.swift in Sources */,
+				9C5F765A229C3E0E000F1606 /* HGPopUpCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
