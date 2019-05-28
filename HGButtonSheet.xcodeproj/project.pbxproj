@@ -102,7 +102,7 @@
 			children = (
 				9C5F7646229C3E0E000F1606 /* Extension */,
 				9C5F7648229C3E0E000F1606 /* HGPopUp */,
-				9C5F7689229C3E49000F1606 /* Component */,
+				9C5F7689229C3E49000F1606 /* HGButtonSheet */,
 				9C5F7634229C3DA2000F1606 /* AppDelegate.swift */,
 				9C5F7636229C3DA2000F1606 /* ViewController.swift */,
 				9C5F7690229C413D000F1606 /* Filter.swift */,
@@ -169,14 +169,14 @@
 			path = Protocols;
 			sourceTree = "<group>";
 		};
-		9C5F7689229C3E49000F1606 /* Component */ = {
+		9C5F7689229C3E49000F1606 /* HGButtonSheet */ = {
 			isa = PBXGroup;
 			children = (
 				9C515E70229DEF9C0086A89D /* Model */,
 				9C515E6F229DEF9C0086A89D /* HGButtonSheet.swift */,
 				9C515E6E229DEF9C0086A89D /* HGButtonSheet.xib */,
 			);
-			path = Component;
+			path = HGButtonSheet;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
