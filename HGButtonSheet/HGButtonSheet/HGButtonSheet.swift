@@ -260,6 +260,7 @@ class HGButtonSheet: UIView {
     }
     
     @IBAction func openActonSheetTapped(_ sender: UIButton) {
+        guard values.count > 0 else {return}
         let presenter = HGPopUpPresenter(vc: vc)
         presenter.present(.HGPopUp(withValues: values, AndTitle: title, mainView: self))
     }

@@ -69,6 +69,7 @@
                 </imageView>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xG3-cU-R04">
                     <rect key="frame" x="0.0" y="0.0" width="414" height="67"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="5"/>
                     <connections>
                         <action selector="openActonSheetTapped:" destination="-1" eventType="touchUpInside" id="caA-yc-K2H"/>
                     </connections>
@@ -78,22 +79,22 @@
             <constraints>
                 <constraint firstItem="47e-Wc-aW3" firstAttribute="top" secondItem="NBA-AG-UDC" secondAttribute="bottom" id="2hT-nR-sXu"/>
                 <constraint firstItem="NBA-AG-UDC" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="21" id="4CA-oS-abr"/>
-                <constraint firstAttribute="trailing" secondItem="xG3-cU-R04" secondAttribute="trailing" id="FLz-A2-37G"/>
                 <constraint firstItem="fqi-Ex-ATT" firstAttribute="top" secondItem="47e-Wc-aW3" secondAttribute="bottom" id="FU9-Kf-SaU"/>
                 <constraint firstItem="wrw-0X-32K" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="GD6-8y-kpz"/>
                 <constraint firstItem="fqi-Ex-ATT" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="IcD-3R-Ohk"/>
+                <constraint firstItem="xG3-cU-R04" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" id="OBM-m6-nS5"/>
                 <constraint firstItem="JIg-qF-ZI4" firstAttribute="leading" secondItem="NBA-AG-UDC" secondAttribute="trailing" constant="4" id="OHB-98-aey"/>
+                <constraint firstItem="xG3-cU-R04" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="TEK-Zu-htp"/>
                 <constraint firstAttribute="bottom" secondItem="fqi-Ex-ATT" secondAttribute="bottom" id="VKc-4u-7Dd"/>
                 <constraint firstItem="47e-Wc-aW3" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="aSp-wT-3pk"/>
                 <constraint firstItem="JIg-qF-ZI4" firstAttribute="centerY" secondItem="NBA-AG-UDC" secondAttribute="centerY" id="bGq-mG-HMX"/>
                 <constraint firstItem="NBA-AG-UDC" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="dnU-L7-FcK"/>
                 <constraint firstAttribute="trailing" secondItem="wrw-0X-32K" secondAttribute="trailing" id="ebv-oJ-FH9"/>
-                <constraint firstItem="xG3-cU-R04" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="jo3-Kc-9UV"/>
-                <constraint firstItem="xG3-cU-R04" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="nuE-EI-7Zb"/>
-                <constraint firstAttribute="bottom" secondItem="xG3-cU-R04" secondAttribute="bottom" id="oxH-r9-DUb"/>
+                <constraint firstItem="xG3-cU-R04" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" id="jBb-F8-ie5"/>
                 <constraint firstItem="JIg-qF-ZI4" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="sCq-S8-RlD"/>
                 <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="fqi-Ex-ATT" secondAttribute="trailing" id="sRp-ID-lKw"/>
                 <constraint firstItem="wrw-0X-32K" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="sVm-G9-TBZ"/>
+                <constraint firstItem="xG3-cU-R04" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="uj8-hO-qTT"/>
                 <constraint firstAttribute="trailing" secondItem="47e-Wc-aW3" secondAttribute="trailing" id="wK2-9F-nLG"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
