@@ -118,14 +118,14 @@ class HGButtonSheet: UIView {
     func setText(with text: String?){
         self.fieldPackage.text = text
         self.handlingSeparatorView()
+        textField.text = text
         
-        guard let text = text else {
+        guard let _ = text else {
             self.inActivePlaceHolderAnimation()
             return
         }
         
         self.activePlaceHolderAnimation()
-        textField.text = text
     }
     
     func getText() -> String?{
@@ -134,10 +134,11 @@ class HGButtonSheet: UIView {
     
     func setWarningText(with warningText: String?){
         self.warningPackage.warningText = warningText
+        handlingSeparatorView()
+        warningLabel.text = warningText
         
-        guard let warningText = warningText else {
+        guard let _ = warningText else {
             hasWarning = false
-            handlingSeparatorView()
             warningHeight.constant = 0
             layOutSuperView()
             return
@@ -145,8 +146,6 @@ class HGButtonSheet: UIView {
         
         let width = warningLabel.frame.width
         hasWarning = true
-        handlingSeparatorView()
-        warningLabel.text = warningText
         warningHeight.constant = height(withWidth: width, font: warningLabel.font)
         layOutSuperView()
     }
